@@ -11,7 +11,20 @@ final public class JsonLoad {
     
     // MARK: Data load func
     func getData() -> [LandmarkJSON] {
-        if let fileLocation = Bundle.main.url(forResource: "landmarkData", withExtension: "json") {
+        if let fileLocation = Bundle.main.url(forResource: Constant.shared.filename, withExtension: Constant.shared.extensionData) {
+            let data: Data
+            
+            guard let file = Bundle.main.url(forResource: Constant.shared.filename, withExtension: Constant.shared.extensionData)
+                else {
+                    fatalError("Couldn't find \(Constant.shared.filename) in main bundle.")
+            }
+            
+            do {
+                data = try Data(contentsOf: file)
+            } catch {
+                fatalError("Couldn't load \(Constant.shared.filename) from main bundle:\n\(error)")
+            }
+            
             do {
                 let data = try Data(contentsOf: fileLocation)
                 let jsonDecoder = JSONDecoder()
