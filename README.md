@@ -4,10 +4,14 @@
 
 
 Главный экран: 
+
+
 <img width="371" alt="Снимок экрана 2021-06-12 в 02 29 11" src="https://user-images.githubusercontent.com/68297992/121759563-8e358500-cb26-11eb-9128-c4519ffb0559.png">
 
 
 
 
 Экран с детальной информацией:
+
+
 <img width="355" alt="Снимок экрана 2021-06-12 в 02 29 24" src="https://user-images.githubusercontent.com/68297992/121759574-9a214700-cb26-11eb-8930-7f44d4fcf54c.png">
