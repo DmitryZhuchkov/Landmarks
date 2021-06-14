@@ -14,4 +14,4 @@
 Экран с детальной информацией:
 
 
-<img width="355" alt="Снимок экрана 2021-06-12 в 02 29 24" src="https://user-images.githubusercontent.com/68297992/121759574-9a214700-cb26-11eb-8930-7f44d4fcf54c.png">
+<img width="382" alt="Снимок экрана 2021-06-14 в 18 18 51" src="https://user-images.githubusercontent.com/68297992/121925699-7a17a080-cd3d-11eb-9a33-4bc8d1c3ceff.png">
