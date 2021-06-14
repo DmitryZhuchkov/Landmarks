@@ -49,7 +49,12 @@ final class ListViewModel {
             fullString.append(imageString)
             rootvc.placeName.attributedText = fullString
         } else {
-            rootvc.placeName.text = rootvc.title
+            let fullString = NSMutableAttributedString(string: "\(rootvc.title!) ")
+            let imageAttachment = NSTextAttachment()
+            imageAttachment.image = UIImage(systemName: "star")?.withTintColor(.gray)
+            let imageString = NSAttributedString(attachment: imageAttachment)
+            fullString.append(imageString)
+            rootvc.placeName.attributedText = fullString
         }
         
         
